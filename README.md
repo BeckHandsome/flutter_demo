@@ -9,6 +9,8 @@ A new Flutter project.
 
 发现部分不能使用可能需要对比一下android 中修改的的内容  
 由于使用了极光推送，连网，地图 所以需要使用者注意
+
+### 注意里面用到了别人写的接口 接口禁止用于商业用途
 ## Getting Started
 
 This project is a starting point for a Flutter application.
