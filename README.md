@@ -1,4 +1,4 @@
-# flutter_dome
+# flutter_demo
 
 A new Flutter project.
 项目拉下来你只需要 lib，images，pubspec.yaml 这三个文件 
