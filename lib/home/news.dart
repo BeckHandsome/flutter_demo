@@ -32,7 +32,7 @@ class _NewsState extends State<News> with TickerProviderStateMixin {
       {"name": "要闻", "id": 7},
     ];
     _tabController = TabController(length: _tabs.length, vsync: this);
-    requestPermission(_permission);
+    requestPermission(_permission); ///定位功能
     
   }
   Future<void> requestPermission(Permission permission) async {

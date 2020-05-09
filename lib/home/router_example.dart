@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dome/home/echarts_page.dart';
 import 'package:flutter_dome/home/list_expanded.dart';
 import 'package:flutter_dome/home/permission.dart';
+import 'package:flutter_dome/home/sliver.dart';
 import 'package:flutter_dome/home/table.dart';
 import 'package:flutter_dome/home/tree.dart';
 import 'package:flutter_dome/home/widget/widget.drawer.dart';
@@ -24,7 +25,7 @@ class RouterExample extends StatefulWidget {
 
 class _RouterExampleState extends State<RouterExample> {
   bool _switchSelected = true;
-  
+
   @override
   void initState() {
     // TODO: implement initState
@@ -70,6 +71,12 @@ class _RouterExampleState extends State<RouterExample> {
         break;
       case 7:
         content = Permissionsss();
+        break;
+      case 8:
+        content = EchartsPage();
+        break;
+      case 9:
+        content = StickyDemo();
         break;
       default:
         content = EchartsPage();

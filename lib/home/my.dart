@@ -11,6 +11,7 @@ class My extends StatelessWidget {
     {"title": "抽屉","id": 6},
     {"title": "发送通知","id": 7},
     {"title": "echarts","id": 8},
+    {"title": "sliverHeader","id": 9},
   ];
   @override
   Widget build(BuildContext context) {
