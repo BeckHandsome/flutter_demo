@@ -41,8 +41,8 @@ class _StickyDemoState extends State<StickyDemo>
                 labelColor: Colors.black,
                 controller: this.tabController,
                 tabs: <Widget>[
-                  Tab(text: 'Home'),
-                  Tab(text: 'Profile'),
+                  Tab(text: '1'),
+                  Tab(text: '2'),
                 ],
               ),
             ),

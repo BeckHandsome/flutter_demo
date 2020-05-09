@@ -79,7 +79,6 @@ class DioUtil {
     }
     
     Response response = await _dio.request(NWApi.baseApi+path, data: data, queryParameters:pathParams, options: Options(method: method));
-  
     if(response.statusCode == HttpStatus.ok || response.statusCode == HttpStatus.created) {
       try {
         if(response.data is Map) {
